@@ -1,5 +1,5 @@
 import re, json
-from urllib.requiest import urlopen
+from urllib.request import urlopen
 
 url = 'https: //ipinfo.io/json'
 
