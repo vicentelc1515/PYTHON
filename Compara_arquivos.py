@@ -1,8 +1,6 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-## propósito: verificar na planilha do Massia, quais maquinas não estão sendo monitoradas e são de PRD.
+## propósito: verificar na planilha, quais maquinas não estão sendo monitoradas e são de PRD.
 ## procedimento: usar como base a planilha dos Nao_monitorados, localizar na planilha de ativos e verificar na coluna "Cluster" se é PRD. Por fim listar.
+
 import time
 import openpyxl
 
