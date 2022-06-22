@@ -44,12 +44,6 @@ for i in range(2, max_row + 1):
             #print(on_off.value," | ",cluster.value," | ",OPRO.value,"\n")
             print(on_off.value,",",cell_obj2.value,", Encontrada na linha:",j+1,",",cluster.value,",",OPRO.value)
             contador+=1
-            #if on_off.value == 'poweredOn' and cluster.value == 'PRD':
-            #    cont+=1
-            #    print(sheet_obj2.cell(row = j, column = 1).value,
-            #          ",",sheet_obj2.cell(row = j, column = 2).value,
-            #          ",",sheet_obj2.cell(row = j, column = 62).value,
-            #          ",",sheet_obj2.cell(row = j, column = 93).value)
             break  
 
 
